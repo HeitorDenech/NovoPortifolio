@@ -1,6 +1,5 @@
 * {
     list-style: none;
-    overflow-y: hidden;
 }
 
 .navbar {
@@ -329,6 +328,11 @@
         pointer-events: all;
     }
 
+    .icons-menu{
+        width: 100vw;
+        border-top: 1px solid rgb(141, 141, 141);
+    }
+
     .icons-menu i{
         font-size: 26px;
         color: black;
@@ -338,6 +342,10 @@
 /* -----------CELULARES-430PX----------- */
 
 @media screen and (max-width: 430px){
+
+    *{
+        overflow-y: hidden;
+    }
 
     .text-menu{
         height: 70vh;
