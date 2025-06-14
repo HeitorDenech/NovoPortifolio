@@ -344,6 +344,9 @@
     }
 
     .icons-menu{
-        height: 30vh;
+        border-top: 1px solid rgb(141, 141, 141);
+        width: 100vw;
+        align-items: start;
+        height: 20vh;
     }
 }
