@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import LogoHeitorDenech from '../assets/LogoHeitorDenech.png'; // caminho da sua logo
+import LogoHeitorDenech from '../assets/logoheitordenech.png'; // caminho da sua logo
 import './Navbar.css';
 
 export default function Navbar() {

@@ -8,6 +8,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.nav{
+  overflow-y: hidden;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
