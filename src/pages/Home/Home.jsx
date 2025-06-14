@@ -1,7 +1,7 @@
 import './Home.css';
 // import computador from "../../assets/computador.webp"
 import programador from "../../assets/programador.avif"
-
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -17,9 +17,9 @@ function Home() {
                     <p>Seja bem-vindo(a) ao meu universo digital!</p>
 
                     <div className='container-interno-introducao-btn'>
-                        <a href="">
+                        <Link to="/projetos">
                             <button>Projetos</button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -35,8 +35,8 @@ export default function Navbar() {
             </ul>
 
             <div className="navbar-icons">
-                <i className="bi bi-linkedin"></i>
-                <i className="bi bi-github"></i>
+                <a href="https://www.linkedin.com/in/heitor-de-albuquerque-denech-5a4669239/" target='_blank'><i className="bi bi-linkedin"></i></a>
+                <a href="https://github.com/HeitorDenech?tab=repositories" target='_blank'><i className="bi bi-github"></i></a>
             </div>
 
             {/* Menu Hambúrguer (aparece no mobile) */}

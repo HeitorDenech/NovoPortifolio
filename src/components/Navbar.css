@@ -1,5 +1,6 @@
 * {
     list-style: none;
+    overflow-y: hidden;
 }
 
 .navbar {
@@ -68,6 +69,11 @@
     justify-content: center;
     width: 33%;
     gap: 20px;
+}
+
+.navbar-icons a{
+    text-decoration: none;
+    color: black;
 }
 
 .navbar-icons i {
@@ -220,11 +226,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
 }
 
 .icons-menu{
-    height: 10vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
