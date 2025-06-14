@@ -213,7 +213,23 @@
 
 .menu-ativo {
     width: 100vw;
-    /* ou 100vw se quiser ocupar tudo */
+}
+
+.text-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.icons-menu{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
 }
 
 /* LISTA DENTRO DO MENU */
@@ -305,5 +321,10 @@
         opacity: 1;
         transform: scale(1);
         pointer-events: all;
+    }
+
+    .icons-menu i{
+        font-size: 26px;
+        color: black;
     }
 }

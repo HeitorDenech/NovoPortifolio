@@ -56,9 +56,15 @@ export default function Navbar() {
                         <button className="fechar-menu mostrar-fechar" onClick={alternarMenu}>×</button>
                     )}
                     <ul>
-                        <li><NavLink to="/experiências" onClick={alternarMenu}>Experiências</NavLink></li>
-                        <li><NavLink to="/contato" onClick={alternarMenu}>Contato</NavLink></li>
-                        <li><NavLink to="/início" onClick={alternarMenu}>Início</NavLink></li>
+                        <div className='text-menu'>
+                            <li><NavLink to="/experiências" onClick={alternarMenu}>Experiências</NavLink></li>
+                            <li><NavLink to="/contato" onClick={alternarMenu}>Contato</NavLink></li>
+                            <li><NavLink to="/início" onClick={alternarMenu}>Início</NavLink></li>
+                        </div>
+                        <div className='icons-menu'>
+                            <a href="https://www.linkedin.com/in/heitor-de-albuquerque-denech-5a4669239/" target='_blank'><li id='linkedin-icon'><i className="bi bi-linkedin"></i></li></a>
+                            <a href="https://github.com/HeitorDenech?tab=repositories" target='_blank'><li id='github-icon'><i className="bi bi-github"></i></li></a>
+                        </div>
                     </ul>
                 </nav>
 

@@ -1,0 +1,196 @@
+.home {
+    height: 70vh;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------CONTAINER-INTRODUCAO------------ */
+
+.container-introducao {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
+
+.container-interno-introducao {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    color: black;
+    gap: 20px;
+}
+
+.container-interno-introducao h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.container-interno-introducao p {
+    font-size: 20px;
+    width: auto;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.container-interno-introducao a{
+    cursor: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.container-interno-introducao-btn button {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 7vw;
+    height: 4vh;
+    transition: all .55s ease-in-out;
+    letter-spacing: 0.8px;
+}
+
+.container-interno-introducao-btn button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* ------------CONTAINER-IMG--------------- */
+
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50vw;
+}
+
+.container-img img {
+    height: 60%;
+    width: auto;
+}
+
+/* ------------LAPTOP-1440PX---------------- */
+
+@media screen and (max-width: 1440px) {
+
+    /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
+
+    .container-interno-introducao {
+        width: 60%;
+    }
+
+    .container-interno-introducao p {
+        font-size: 17px;
+        width: auto;
+        text-align: start;
+        line-height: 1.6;
+    }
+
+}
+
+/* ---------LAPTOP-PEQUENO-1024PX--------------- */
+
+@media screen and (max-width: 1024px) {
+
+    /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
+
+    .container-interno-introducao {
+        width: 80%;
+    }
+
+    .container-interno-introducao h1 {
+        font-size: 40px;
+    }
+
+    .container-interno-introducao p {
+        font-size: 16px;
+    }
+
+    .container-interno-introducao-btn button {
+        width: 9vw;
+        height: 4vh;
+    }
+
+    /* ------------CONTAINER-IMG--------------- */
+
+    .container-img img {
+        height: 55%;
+        width: auto;
+    }
+
+}
+
+/* -----------TABLET-768PX--------------- */
+
+@media screen and (max-width: 768px) {
+
+    /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
+
+    .container-interno-introducao {
+        width: 90%;
+    }
+
+    .container-interno-introducao p {
+        font-size: 14px;
+    }
+
+    .container-interno-introducao-btn button{
+        font-size: 13px;
+        width: 12vh;
+    }
+
+    /* ------------CONTAINER-IMG--------------- */
+
+    .container-img img {
+        height: 50%;
+        width: auto;
+    }
+}
+
+/* ----------CELULARES-430PX---------- */
+
+@media screen and (max-width: 430px) {
+
+    /* ---------------CONTAINER-INTRODUCAO------------ */
+
+    .container-introducao{
+        width: 100vw;
+    }
+    
+    /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
+
+    .container-interno-introducao{
+        width: 90%;
+    }
+
+    .container-interno-introducao p{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .container-interno-introducao-btn button{
+        width: 35vw;
+        height: 4.5vh;
+        font-size: 14px;
+    }
+
+    /* ------------CONTAINER-IMG--------------- */
+
+    .container-img{
+        width: 0;
+        display: none;
+    }
+
+}
