@@ -8,7 +8,8 @@
 /* ---------------CONTAINER-INTRODUCAO------------ */
 
 .container-introducao {
-    height: 70vh;
+    min-height: 70vh;
+    height: auto;
     width: 50vw;
     display: flex;
     align-items: center;
@@ -40,7 +41,7 @@
     text-align: start;
 }
 
-.container-interno-introducao a{
+.container-interno-introducao a {
     cursor: normal;
     text-decoration: none;
     color: black;
@@ -143,7 +144,7 @@
         font-size: 14px;
     }
 
-    .container-interno-introducao-btn button{
+    .container-interno-introducao-btn button {
         font-size: 13px;
         width: 12vh;
     }
@@ -162,25 +163,26 @@
 
     /* ---------------CONTAINER-INTRODUCAO------------ */
 
-    .container-introducao{
+    .container-introducao {
         width: 100vw;
-        height: 70vh;
+        min-height: 70vh;
+        height: auto;
         /* background-color: red; */
     }
-    
+
     /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
 
-    .container-interno-introducao{
+    .container-interno-introducao {
         height: 100%;
         width: 90%;
     }
 
-    .container-interno-introducao p{
+    .container-interno-introducao p {
         width: 90%;
         font-size: 16px;
     }
 
-    .container-interno-introducao-btn button{
+    .container-interno-introducao-btn button {
         width: 35vw;
         height: 4.5vh;
         font-size: 14px;
@@ -188,7 +190,7 @@
 
     /* ------------CONTAINER-IMG--------------- */
 
-    .container-img{
+    .container-img {
         height: 0;
         width: 0;
         display: none;
