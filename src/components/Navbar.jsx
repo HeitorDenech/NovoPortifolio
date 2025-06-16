@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import logoheitordenech from '../assets/logoheitordenech.png'; // caminho da sua logo
+import logoheitordenech from '../assets/logoheitordenech.png';
 import './Navbar.css';
 
 export default function Navbar() {
