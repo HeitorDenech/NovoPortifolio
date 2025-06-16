@@ -39,7 +39,6 @@
     font-size: 20px;
     width: auto;
     text-align: start;
-    line-height: 1.5;
 }
 
 .container-interno-introducao a{
@@ -95,7 +94,7 @@
         font-size: 17px;
         width: auto;
         text-align: start;
-        line-height: 1.6;
+        /* line-height: 1.6; */
     }
 
 }
