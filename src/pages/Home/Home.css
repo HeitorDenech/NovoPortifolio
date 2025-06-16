@@ -1,5 +1,4 @@
 .home {
-    height: 70vh;
     max-width: 100vw;
     display: flex;
     align-items: center;
@@ -9,7 +8,7 @@
 /* ---------------CONTAINER-INTRODUCAO------------ */
 
 .container-introducao {
-    height: 100%;
+    height: 70vh;
     width: 50vw;
     display: flex;
     align-items: center;
@@ -166,11 +165,14 @@
 
     .container-introducao{
         width: 100vw;
+        height: 70vh;
+        /* background-color: red; */
     }
     
     /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
 
     .container-interno-introducao{
+        height: 100%;
         width: 90%;
     }
 
@@ -188,6 +190,7 @@
     /* ------------CONTAINER-IMG--------------- */
 
     .container-img{
+        height: 0;
         width: 0;
         display: none;
     }
