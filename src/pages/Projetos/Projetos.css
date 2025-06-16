@@ -42,7 +42,6 @@
     margin-left: 10%;
     font-size: 20px;
     width: 80%;
-    /* line-height: 1.5; */
 }
 
 /* ---------CONTAINER-PROJETOS-IMG--------- */
@@ -96,10 +95,12 @@
     background-color: rgb(221, 221, 221);
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    min-height: 40vh;
+    height: auto;
     width: 25%;
     border-radius: 20px;
     gap: 15px;
+    overflow: hidden;
 }
 
 .container-projetos-img {
@@ -121,9 +122,10 @@
 
 .container-projetos p {
     margin-left: 3%;
-    width: auto;
-    font-size: 16px;
-    /* line-height: 1.5; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .container-projetos button {
@@ -311,7 +313,7 @@
 
 @media screen and (max-width: 430px) {
 
-    *{
+    * {
         overflow: auto;
     }
 
@@ -349,7 +351,6 @@
         margin-left: 10%;
         font-size: 15px;
         width: 80%;
-        /* line-height: 1.5; */
     }
 
     /* ---------CONTAINER-PROJETOS-PRINCIPAL----------- */
@@ -378,7 +379,7 @@
         gap: 15px;
     }
 
-    .container-projetos button{
+    .container-projetos button {
         width: 40vw;
     }
 
