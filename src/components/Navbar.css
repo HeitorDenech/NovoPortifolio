@@ -45,7 +45,7 @@
     text-transform: uppercase;
 }
 
-/* ---------NAVBAR-IMG----------------------- */
+/* ---------NAVBAR-TITLE----------------------- */
 
 
 .navbar-img {
@@ -56,7 +56,7 @@
 }
 
 .navbar-img img {
-    height: 20vh;
+    height: 10vh;
     width: auto;
 }
 
@@ -310,7 +310,7 @@
     }
 
     .navbar-img img {
-        height: 20vh;
+        height: 10vh;
         width: auto;
     }
 
@@ -364,5 +364,10 @@
         width: 100vw;
         align-items: start;
         height: 20vh;
+    }
+
+    .navbar-img img {
+        height: 8vh;
+        width: auto;
     }
 }

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import logoheitordenech from '../assets/logoheitordenech.png';
+import logo from "../assets/logo.jpg"
 import './Navbar.css';
 
 export default function Navbar() {
@@ -34,7 +34,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-img">
-        <img src={logoheitordenech} alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
 
       <ul className="navbar-text">
