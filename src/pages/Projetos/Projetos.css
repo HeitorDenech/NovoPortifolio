@@ -33,13 +33,13 @@
 }
 
 .container-introducao-projetos-text h1 {
-    margin-left: 10%;
+    margin-left: 12%;
     font-size: 50px;
     text-transform: uppercase;
 }
 
 .container-introducao-projetos-text p {
-    margin-left: 10%;
+    margin-left: 12%;
     font-size: 20px;
     width: 80%;
 }
@@ -145,9 +145,9 @@
     cursor: pointer;
 }
 
-/* ----------LAPTOP-1440PX--------- */
+/* ----------LAPTOP-1540PX--------- */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1540px) {
 
     /* ---------CONTAINER-PROJETOS-TEXTO---------- */
 

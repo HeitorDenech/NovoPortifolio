@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'; // certifique-se que essa página exista
 import Experiencias from './pages/Experiencias/Experiencias';
 import Contato from './pages/Contato/Contato';
 import Projetos from './pages/Projetos/Projetos';
+import 'animate.css';
 
 function App() {
   return (

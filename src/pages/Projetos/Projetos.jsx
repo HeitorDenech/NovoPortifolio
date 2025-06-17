@@ -9,13 +9,13 @@ function Projetos() {
             <section className='container-introducao-projetos'>
 
                 <div className='container-introducao-projetos-text'>
-                    <h1>Meus Projetos</h1>
-                    <p>Aqui estão alguns dos projetos que desenvolvi para praticar e aprimorar minhas habilidades como Web Designer.
+                    <h1 className="animate__animated animate__fadeIn">Meus Projetos</h1>
+                    <p className="animate__animated animate__fadeIn">Aqui estão alguns dos projetos que desenvolvi para praticar e aprimorar minhas habilidades como Web Designer.
                         Cada projeto representa um desafio e um aprendizado!</p>
                 </div>
 
                 <div className='container-introducao-projetos-img'>
-                    <img src={apresentacao} alt="" />
+                    <img className='animate__animated animate__fadeIn' src={apresentacao} alt="" />
                 </div>
 
             </section>
