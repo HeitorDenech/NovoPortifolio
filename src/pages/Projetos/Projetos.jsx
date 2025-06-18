@@ -7,9 +7,9 @@ function Projetos() {
         <section className='projetos'>
 
             <section className='container-introducao-projetos'>
-                <div className='container-introducao-projetos-text'>
-                    <h1 data-aos="fade-right">Meus Projetos</h1>
-                    <p data-aos="fade-right">Aqui estão alguns dos projetos que desenvolvi para praticar e aprimorar minhas habilidades como Web Designer.
+                <div className='container-introducao-projetos-text' data-aos="fade-right">
+                    <h1>Meus Projetos</h1>
+                    <p>Aqui estão alguns dos projetos que desenvolvi para praticar e aprimorar minhas habilidades como Web Designer.
                         Cada projeto representa um desafio e um aprendizado!</p>
                 </div>
 
