@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './pages/Home/Home'; // certifique-se que essa página exista
+import Home from './pages/Home/Home';
 import Experiencias from './pages/Experiencias/Experiencias';
 import Contato from './pages/Contato/Contato';
 import Projetos from './pages/Projetos/Projetos';
 import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // duração das animações em ms
+      once: true,     // anima uma única vez ao rolar
+    });
+  }, []);
+
   return (
     <BrowserRouter>
       <Navbar />
