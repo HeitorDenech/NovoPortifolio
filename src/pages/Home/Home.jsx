@@ -16,7 +16,7 @@ function Home() {
                     <p data-aos="fade-right">Neste portfólio, você encontrará projetos que refletem meu aprendizado contínuo, atenção aos detalhes e compromisso com a inovação. </p>
                     <p data-aos="fade-right">Seja bem-vindo(a) ao meu universo digital!</p>
 
-                    <div className='container-interno-introducao-btn' data-aos="fade-right">
+                    <div className='container-interno-introducao-btn'>
 
                         <Link to="/projetos">
                             <button>Projetos</button>
