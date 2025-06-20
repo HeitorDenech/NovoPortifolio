@@ -24,12 +24,12 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    height: 90%;
+    height: 70%;
     width: 50%;
     background-color: white;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     color: black;
-    border-radius: 220px 100px 220px 100px;
+    border-radius: 20px;
 }
 
 .container-introducao-projetos-text h1 {
@@ -96,7 +96,7 @@
     background-color: rgb(221, 221, 221);
     display: flex;
     flex-direction: column;
-    min-height: 40vh;
+    min-height: 30vh;
     height: auto;
     width: 25%;
     border-radius: 20px;
@@ -158,11 +158,11 @@
     }
 
     .container-introducao-projetos-text h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .container-introducao-projetos-text p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* ----------CONTAINER-PROJETOS----------- */
@@ -209,7 +209,7 @@
     }
 
     .container-introducao-projetos-text p {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .container-introducao-projetos-text h1 {
