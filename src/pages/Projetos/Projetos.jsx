@@ -19,13 +19,13 @@ function Projetos() {
 
             </section>
 
-            <section className='container-projetos-principal'>
+            <section className='container-projetos-principal' data-aos="fade-up">
 
                 <div className='title-container-projetos'>
                     <h1 data-aos="fade-right">meus projetos</h1>
                 </div>
 
-                <div className='container-projetos' data-aos="fade-up">
+                <div className='container-projetos'>
                     <div className='container-projetos-img'>
                         <img src={portifolio} alt="" />
                     </div>
@@ -44,7 +44,7 @@ function Projetos() {
                     </div>
                 </div>
 
-                <div className='container-projetos' data-aos="fade-up">
+                <div className='container-projetos'>
                     <div className='container-projetos-img'>
                         <img src={portifolio} alt="" />
                     </div>
@@ -63,7 +63,7 @@ function Projetos() {
                     </div>
                 </div>
 
-                <div className='container-projetos' data-aos="fade-up">
+                <div className='container-projetos'>
                     <div className='container-projetos-img'>
                         <img src={portifolio} alt="" />
                     </div>

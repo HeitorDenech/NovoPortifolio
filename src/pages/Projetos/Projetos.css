@@ -27,7 +27,6 @@
     height: 70%;
     width: 50%;
     background-color: white;
-    border: 1px solid black;
     color: black;
     border-radius: 20px;
 }
@@ -155,6 +154,8 @@
 
     .container-introducao-projetos-text {
         border-radius: 50px;
+    border: 1px solid black;
+
     }
 
     .container-introducao-projetos-text h1 {
