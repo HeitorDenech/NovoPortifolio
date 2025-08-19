@@ -49,13 +49,13 @@ function Projetos() {
                         <img src={portifolio} alt="" />
                     </div>
                     <div>
-                        <h1>Primeiro portifólio</h1>
+                        <h1>Calculadora</h1>
                     </div>
                     <div>
-                        <p>Meu primeiro portifólio, e primeiro projeto em react</p>
+                        <p>Fiz uma calculadora para testar meus conhecimentos de JavaScript</p>
                     </div>
                     <div>
-                        <a href="https://heitor-portifolio.vercel.app/" target='_blank'>
+                        <a href="https://calculadoraheitor.vercel.app/" target='_blank'>
                             <button>
                                 View project
                             </button>
