@@ -1,6 +1,8 @@
 import './Projetos.css'
 import apresentacao from "../../assets/apresentacao.avif"
 import portifolio from "../../assets/portifoliowallpaper.avif"
+import portifolio2 from "../../assets/portifoliowallpaper2.jpg"
+import calculadoraimg from "../../assets/calculadoraimg.jpg"
 
 function Projetos() {
     return (
@@ -27,18 +29,18 @@ function Projetos() {
 
                 <div className='container-projetos'>
                     <div className='container-projetos-img'>
-                        <img src={portifolio} alt="" />
+                        <img src={portifolio2} alt="" />
                     </div>
                     <div>
                         <h1>Primeiro portifólio</h1>
                     </div>
                     <div>
-                        <p>Meu primeiro portifólio, e primeiro projeto em react</p>
+                        <p>Meu primeiro portifólio, e primeiro projeto em react.</p>
                     </div>
-                    <div>
+                    <div className='div-botao'>
                         <a href="https://heitor-portifolio.vercel.app/" target='_blank'>
                             <button>
-                                View project
+                                ver projeto
                             </button>
                         </a>
                     </div>
@@ -46,18 +48,18 @@ function Projetos() {
 
                 <div className='container-projetos'>
                     <div className='container-projetos-img'>
-                        <img src={portifolio} alt="" />
+                        <img src={calculadoraimg} alt="" />
                     </div>
                     <div>
                         <h1>Calculadora</h1>
                     </div>
                     <div>
-                        <p>Fiz uma calculadora para testar meus conhecimentos de JavaScript</p>
+                        <p>Fiz uma calculadora para testar meus conhecimentos de JavaScript.</p>
                     </div>
-                    <div>
+                    <div className='div-botao'>
                         <a href="https://calculadoraheitor.vercel.app/" target='_blank'>
                             <button>
-                                View project
+                                ver projeto
                             </button>
                         </a>
                     </div>
@@ -68,15 +70,15 @@ function Projetos() {
                         <img src={portifolio} alt="" />
                     </div>
                     <div>
-                        <h1>Primeiro portifólio</h1>
+                        <h1>Em desenvolvimento</h1>
                     </div>
                     <div>
-                        <p>Meu primeiro portifólio, e primeiro projeto em react</p>
+                        <p>Projeto em desenvolvimento.</p>
                     </div>
-                    <div>
+                    <div className='div-botao'>
                         <a href="https://heitor-portifolio.vercel.app/" target='_blank'>
                             <button>
-                                View project
+                                ver projeto
                             </button>
                         </a>
                     </div>
