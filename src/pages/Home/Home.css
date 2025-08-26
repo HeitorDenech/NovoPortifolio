@@ -98,9 +98,9 @@
 
 }
 
-/* ---------LAPTOP-PEQUENO-1024PX--------------- */
+/* ---------LAPTOP-PEQUENO-1324PX--------------- */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1324px) {
 
     /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
 
@@ -118,7 +118,7 @@
 
     .container-interno-introducao-btn button {
         width: 9vw;
-        height: 4vh;
+        height: 5vh;
     }
 
     /* ------------CONTAINER-IMG--------------- */

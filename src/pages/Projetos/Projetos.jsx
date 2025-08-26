@@ -31,12 +31,15 @@ function Projetos() {
                     <div className='container-projetos-img'>
                         <img src={portifolio2} alt="" />
                     </div>
-                    <div>
+
+                    <div className='title-projeto'>
                         <h1>Primeiro portifólio</h1>
                     </div>
-                    <div>
+
+                    <div className='descricao-projeto'>
                         <p>Meu primeiro portifólio, e primeiro projeto em react.</p>
                     </div>
+
                     <div className='div-botao'>
                         <a href="https://heitor-portifolio.vercel.app/" target='_blank'>
                             <button>
@@ -50,12 +53,15 @@ function Projetos() {
                     <div className='container-projetos-img'>
                         <img src={calculadoraimg} alt="" />
                     </div>
-                    <div>
+                    
+                    <div className='title-projeto'>
                         <h1>Calculadora</h1>
                     </div>
-                    <div>
+                    
+                    <div className='descricao-projeto'>
                         <p>Fiz uma calculadora para testar meus conhecimentos de JavaScript.</p>
                     </div>
+
                     <div className='div-botao'>
                         <a href="https://calculadoraheitor.vercel.app/" target='_blank'>
                             <button>
@@ -69,14 +75,17 @@ function Projetos() {
                     <div className='container-projetos-img'>
                         <img src={portifolio} alt="" />
                     </div>
-                    <div>
+
+                    <div className='title-projeto'>
                         <h1>Em desenvolvimento</h1>
                     </div>
-                    <div>
+
+                    <div className='descricao-projeto'>
                         <p>Projeto em desenvolvimento.</p>
                     </div>
+
                     <div className='div-botao'>
-                        <a href="https://heitor-portifolio.vercel.app/" target='_blank'>
+                        <a href='' target='_blank'>
                             <button>
                                 ver projeto
                             </button>
