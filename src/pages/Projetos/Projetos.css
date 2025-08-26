@@ -294,11 +294,11 @@
 
     /* -----------PROJETOS------------ */
 
-    .container-projetos-principal{
+    .container-projetos-principal {
         width: 80%;
     }
 
-    .container-projetos{
+    .container-projetos {
         width: 45%;
         height: 52vh;
         gap: 20px;
@@ -319,7 +319,7 @@
         width: 100%;
         overflow: hidden;
     }
-    
+
 }
 
 /* --------TABLETS-768PX--------- */
@@ -432,7 +432,7 @@
     /* -------------CONTAINER-PROJETOS---------- */
 
     .container-introducao-projetos {
-        height: 35vh;       
+        height: 35vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -495,6 +495,22 @@
 
     .container-projetos button {
         width: 40vw;
+    }
+
+    .title-projeto {
+        height: 5vh;
+        overflow: hidden;
+    }
+
+    .descricao-projeto {
+        overflow: hidden;
+        height: 10vh;
+    }
+
+    .div-botao {
+        height: 10vh;
+        width: 100%;
+        overflow: hidden;
     }
 
 }
