@@ -77,18 +77,18 @@
 
 /* --------TITLE-CONTAINER-PROJETOS----------- */
 
-.title-container-projetos {
-    margin-top: 4vh;
+.container-title-projetos {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    flex-direction: row;
+    width: 100vw;
 }
 
-.title-container-projetos h1 {
-    font-size: 22px;
+.container-title-projetos h1 {
+    font-size: 40px;
     text-transform: uppercase;
-    width: 100%;
+    color: black;
 }
 
 /* ----------CONTAINER-PROJETOS----------- */
@@ -184,6 +184,16 @@
 
     .container-introducao-projetos-text p {
         font-size: 16px;
+    }
+
+    .container-title-projetos h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: black;
     }
 
     /* ----------CONTAINER-PROJETOS----------- */
@@ -446,11 +456,11 @@
         overflow: hidden;
     }
 
-    .div-botao button{
+    .div-botao button {
         height: 4vh;
         width: 15vw;
     }
-    
+
 }
 
 /* -----------laptop-1024PX-----------  */
@@ -522,6 +532,17 @@
 
     .container-introducao-projetos-text h1 {
         margin-left: 12%;
+    }
+
+    .container-title-projetos h1 {
+        margin-top: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: black;
     }
 
     /* ---------CONTAINER-PROJETOS-IMG--------- */

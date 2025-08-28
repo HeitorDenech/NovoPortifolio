@@ -21,11 +21,12 @@ function Projetos() {
 
             </section>
 
+            <section className='container-title-projetos'>
+                <h1 data-aos="fade-right">Meus Projetos</h1>
+            </section>
+
             <section className='container-projetos-principal' data-aos="fade-up">
 
-                <div className='title-container-projetos'>
-                    <h1 data-aos="fade-right">meus projetos</h1>
-                </div>
 
                 <div className='container-projetos'>
                     <div className='container-projetos-img'>
@@ -53,11 +54,11 @@ function Projetos() {
                     <div className='container-projetos-img'>
                         <img src={calculadoraimg} alt="" />
                     </div>
-                    
+
                     <div className='title-projeto'>
                         <h1>Calculadora</h1>
                     </div>
-                    
+
                     <div className='descricao-projeto'>
                         <p>Fiz uma calculadora para testar meus conhecimentos de JavaScript.</p>
                     </div>
@@ -92,7 +93,7 @@ function Projetos() {
                         </a>
                     </div>
                 </div>
-                
+
 
             </section>
 
