@@ -177,26 +177,28 @@
 
     .container-esquerda-1 p {
         font-size: 20px;
-        width: 80%;
+        width: 60%;
     }
 
     /* --------container-esquerda-2-------------- */
 
     .container-esquerda-2 img {
         height: 30vh;
+        width: 30vw;
     }
 
     /* ------------container-direita-1-------------- */
 
     .container-direita-1 img {
         height: 30vh;
+        width: 30vw;
     }
 
     /* ------------container-direita-2-------------- */
 
     .container-direita-2 p {
         font-size: 20px;
-        width: 80%;
+        width: 60%;
     }
 
 }

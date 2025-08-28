@@ -206,6 +206,10 @@
         cursor: pointer;
     }
 
+    .descricao-projeto{
+        height: 20vh;
+    }
+
 }
 
 /* ----------LAPTOP-1324PX----------- */
