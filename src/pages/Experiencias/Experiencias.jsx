@@ -9,7 +9,7 @@ function Experiencias() {
 
             {/* --------PARTE-MOBILE---------- */}
 
-            <section className='container-mobile-experiencias'>
+            {/* <section className='container-mobile-experiencias'>
 
                 <h1 data-aos="fade-right">Senac-rs (2022 - 2024)</h1>
                 <p>Html</p>
@@ -17,7 +17,7 @@ function Experiencias() {
                 <p>JavaScript</p>
                 <p>Mysql2</p>
 
-            </section>
+            </section> */}
 
             <section className='container-esquerda-experiencias'>
 
