@@ -1,4 +1,4 @@
-.experiencias{
+.experiencias {
     width: 100vw;
     overflow-x: hidden;
     display: flex;
@@ -7,27 +7,28 @@
 }
 
 
-/* -------------CONTAINER-ESQUERDA-EXPERIENCIAS---------------- */ 
+/* -------------CONTAINER-ESQUERDA-EXPERIENCIAS---------------- */
 
-.container-esquerda-experiencias{
+.container-esquerda-experiencias {
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
     width: 50%;
-    height: 100vh;
+    height: 120vh;
 }
 
 /* ------------container-esquerda-1-------------- */
 
-.container-esquerda-1{
-    margin-top: 2vh;
+.container-esquerda-1 {
+    margin-top: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.container-esquerda-1 h1{
+.container-esquerda-1 h1 {
     font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
@@ -35,75 +36,164 @@
 
 }
 
-.container-esquerda-1 p{
+.container-esquerda-1 p {
     margin-top: 2vh;
     font-size: 16px;
     width: 70%;
     font-weight: lighter;
+    font-style: italic;
 }
 
-.container-esquerda-1 a{
-    color: red;
+.container-esquerda-1 a {
+    color: black;
     transition: all .55s ease-in-out;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-.container-esquerda-1 a:hover{
+.container-esquerda-1 a:hover {
     color: black;
     text-decoration: none;
 }
-/* -------------LINHA-EXPERIENCIAS---------------- */ 
 
-.linha-experiencias{
+/* ------------comtainer-esquerda-2-------------- */
+
+.container-esquerda-2 {
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-esquerda-2 img {
+    height: 40vh;
+    width: 40vw;
+    filter: grayscale(100%);
+    border-radius: 20px;
+}
+
+
+
+/* -------------LINHA-EXPERIENCIAS---------------- */
+
+.linha-experiencias {
     width: 1px;
-    height: 100vh;
+    height: 120vh;
     background-color: rgb(105, 105, 105);
 }
 
-/* -------------CONTAINER-DIREITA-EXPERIENCIAS---------------- */ 
+/* -------------CONTAINER-DIREITA-EXPERIENCIAS---------------- */
 
-.container-direita-experiencias{
+.container-direita-experiencias {
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
     width: 50%;
-    height: 100vh;
+    height: 120vh;
 }
 
 /* ------------container-direita-1-------------- */
 
-.container-direita-1{
-    margin-top: 2vh;
+.container-direita-1 {
+    margin-top: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
-.container-direita-1 img{   
+
+.container-direita-1 img {
     width: 40vw;
     height: 40vh;
     filter: grayscale(100%);
+    border-radius: 20px;
+}
+
+/* ------------container-direita-2-------------- */
+
+.container-direita-2 {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-direita-2 h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.container-direita-2 p {
+    margin-top: 2vh;
+    font-size: 16px;
+    width: 70%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.container-direita-2 a {
+    color: black;
+    transition: all .55s ease-in-out;
+    text-decoration: underline;
+}
+
+.container-direita-2 a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 /* ----------------laptop-1440px------------------- */
 
 @media screen and (min-width: 1440px) {
 
+    .container-esquerda-experiencias {
+        height: 90vh;
+    }
+
+    .linha-experiencias {
+        height: 90vh;
+    }
+
+    .container-direita-experiencias {
+        height: 90vh;
+    }
+
     /* ------------container-esquerda-1-------------- */
 
-    .container-esquerda-1 h1{
+    .container-esquerda-1 h1 {
         font-size: 34px;
     }
 
-    .container-esquerda-1 p{
+    .container-esquerda-1 p {
         font-size: 20px;
+        width: 80%;
+    }
+
+    /* --------container-esquerda-2-------------- */
+
+    .container-esquerda-2 img {
+        height: 30vh;
     }
 
     /* ------------container-direita-1-------------- */
 
-    .container-direita-1 img{
+    .container-direita-1 img {
         height: 30vh;
+    }
+
+    /* ------------container-direita-2-------------- */
+
+    .container-direita-2 p {
+        font-size: 20px;
+        width: 80%;
     }
 
 }
@@ -111,16 +201,42 @@
 /* ----------------laptop-1024px------------------- */
 @media screen and (max-width: 1024px) {
 
+    .container-esquerda-experiencias {
+        height: 90vh;
+    }
+
+    .linha-experiencias {
+        height: 90vh;
+    }
+
+    .container-direita-experiencias {
+        height: 90vh;
+    }
+
     /* ------------container-esquerda-1-------------- */
 
-    .container-esquerda-1 p{
-        font-size: 16px;
+    .container-esquerda-1 p {
+        font-size: 18px;
+        width: 80%;
     }
-    
+
     /* ------------container-direita-1-------------- */
 
-    .container-direita-1 img{
+    .container-direita-1 img {
         height: 30vh;
+    }
+
+    /* -------------container-esquerda-2-------------- */
+
+    .container-esquerda-2 img {
+        height: 30vh;
+    }
+
+    /* ------------container-direita-2--------------  */
+
+    .container-direita-2 p {
+        font-size: 18px;
+        width: 80%;
     }
 
 }
@@ -128,80 +244,151 @@
 /* ------------tablet-768px------------------- */
 @media screen and (max-width: 768px) {
 
+    .container-esquerda-experiencias {
+        height: 95vh;
+    }
 
-    .linha-experiencias{
+    .linha-experiencias {
+        height: 95vh;
+    }
+
+    .container-direita-experiencias {
+        height: 95vh;
+    }
+
+    .linha-experiencias {
         height: 0;
     }
 
     /* ------------container-esquerda-1-------------- */
 
-    .container-esquerda-1 h1{
+    .container-esquerda-1 h1 {
         font-size: 28px;
     }
 
-    .container-esquerda-1 p{
+    .container-esquerda-1 p {
         font-size: 14px;
-        width: 80%;
+        width: 75%;
+    }
+
+    /* ------------container-esquerda-2-------------- */
+
+    .container-esquerda-2 img {
+        width: 40vw;
+        height: 32vh;
     }
 
     /* ------------container-direita-1-------------- */
 
-    .container-direita-1 img{
-        width: 45vw;
+    .container-direita-1 img {
+        width: 40vw;
         height: 32vh;
     }
-    
+
+    /* ------------container-direita-2-------------- */
+
+    .container-direita-2 h1 {
+        font-size: 28px;
+    }
+
+    .container-direita-2 p {
+        font-size: 14px;
+        width: 75%;
+    }
+
 }
 
 /* -----------celular-430px-------------------  */
 @media screen and (max-width: 430px) {
 
-    .experiencias{
+    .experiencias {
         flex-direction: column;
         display: flex;
         align-items: start;
         justify-content: start;
     }
-    
-    .linha-experiencias{
+
+    .linha-experiencias {
         height: 0;
     }
-    
-     /* ------------container-esquerda-1-------------- */
 
-     .container-esquerda-experiencias{
+    /* ------------container-esquerda-1-------------- */
+
+    .container-esquerda-experiencias {
         height: auto;
         display: flex;
         align-items: start;
         justify-content: start;
         width: 100vw;
-     }
+    }
 
-     .container-esquerda-1{
+    .container-esquerda-1 {
         display: flex;
         align-items: start;
         justify-content: start;
         width: 100%;
         margin-left: 2vh;
-     }
+    }
 
-    .container-esquerda-1 h1{
+    .container-esquerda-1 h1 {
         font-size: 36px;
     }
 
-    .container-esquerda-1 p{
+    .container-esquerda-1 p {
         font-size: 14px;
         width: 80%;
     }
 
-    /* ------------container-direita-1-------------- */
+    /* -------------container-esquerda-2-------------- */
 
-    .container-direita-experiencias{
+    .container-esquerda-2 {
+        display: none;
+    }
+
+    .container-esquerda-2 {
         height: auto;
     }
 
-    .container-direita-1{
+    /* ------------container-direita-1-------------- */
+
+    .container-direita-experiencias {
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        width: 100vw;
+    }
+
+    .container-direita-2 {
+        margin-top: 5vh;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+        margin-left: 2vh;
+    }
+
+    .container-direita-experiencias {
+        height: auto;
+    }
+
+    .container-direita-1 {
         display: none;
     }
-    
+
+    /* -----------container-direita-2-------------- */
+
+    .container-direita-2 {
+        width: 100vw;
+    }
+
+    .container-direita-2 h1 {
+        font-size: 36px;
+    }
+
+    .container-direita-2 p {
+        font-size: 14px;
+        width: 80%;
+    }
+
 }
