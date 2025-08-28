@@ -177,6 +177,7 @@
 
     .container-introducao-projetos-text h1 {
         font-size: 40px;
+        width: 100%;
     }
 
     .container-introducao-projetos-text p {
@@ -184,6 +185,13 @@
     }
 
     /* ----------CONTAINER-PROJETOS----------- */
+
+    .title-container-projetos h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
     .container-projetos {
         width: 30%;
@@ -208,6 +216,7 @@
 
     .descricao-projeto{
         height: 20vh;
+        width: 80%;
     }
 
 }
