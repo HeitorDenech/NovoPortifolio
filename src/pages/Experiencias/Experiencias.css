@@ -6,6 +6,9 @@
     justify-content: center;
 }
 
+.container-mobile-experiencias {
+    display: none;
+}
 
 /* -------------CONTAINER-ESQUERDA-EXPERIENCIAS---------------- */
 
@@ -301,6 +304,37 @@
 /* -----------celular-430px-------------------  */
 @media screen and (max-width: 430px) {
 
+    /* ---------PARTE-MOBILE---------- */
+
+    .container-mobile-experiencias {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+
+    .container-mobile-experiencias h1 {
+        font-size: 20px;
+        margin-left: 3vh;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-style: italic;
+        width: 100%;
+    }
+
+    .container-mobile-experiencias p{
+        margin-top: 0.5vh;
+        font-size: 18px;
+        width: 100%;
+        margin-left: 3vh;
+    }
+
+    /* ------------PARTE-ANTIGA-DO-CODIGO------------ */
+
+
     .experiencias {
         flex-direction: column;
         display: flex;
@@ -320,6 +354,7 @@
         align-items: start;
         justify-content: start;
         width: 100vw;
+        display: none;
     }
 
     .container-esquerda-1 {
@@ -357,6 +392,7 @@
         align-items: start;
         justify-content: start;
         width: 100vw;
+        display: none;
     }
 
     .container-direita-2 {

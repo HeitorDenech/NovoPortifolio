@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-style: italic;
 }
 
 /* -------------CONTAINER-INTRODUCAO-PROJETOS---------- */
@@ -277,7 +278,8 @@
     .descricao-projeto {
         background-color: transparent;
         overflow: hidden;
-        height: 15vh;
+        height: 17vh;
+        width: 90%;
     }
 
     .div-botao {
@@ -286,6 +288,8 @@
         width: 100%;
         overflow: hidden;
     }
+
+
 }
 
 /* -----------laptop-1024PX-----------  */
@@ -411,7 +415,8 @@
 
     .descricao-projeto {
         overflow: hidden;
-        height: 8vh;
+        height: 10vh;
+        width: 90%;
     }
 
     .div-botao {

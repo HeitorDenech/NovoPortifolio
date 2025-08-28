@@ -6,9 +6,11 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+  font-style: italic;
+
 }
 
-.nav{
+.nav {
   overflow-y: hidden;
 }
 

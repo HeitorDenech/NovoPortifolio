@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-style: italic;
 }
 
 /* ---------------CONTAINER-INTRODUCAO------------ */
@@ -33,6 +34,7 @@
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    width: 100%;
 }
 
 .container-interno-introducao p {
