@@ -102,7 +102,7 @@
     background-color: rgb(221, 221, 221);
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: auto;
     width: 25%;
     border-radius: 20px;
     gap: 15px;
@@ -136,17 +136,17 @@
 }
 
 .title-projeto {
-    height: 5vh;
+    height: auto;
     overflow: hidden;
 }
 
 .descricao-projeto {
     overflow: hidden;
-    height: 10vh;
+    height: auto;
 }
 
 .div-botao {
-    height: 10vh;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
@@ -300,15 +300,15 @@
 
     .title-projeto {
         background-color: transparent;
-        height: 5vh;
+        height: 8vh;
         overflow: hidden;
     }
 
     .descricao-projeto {
         background-color: transparent;
         overflow: hidden;
-        height: 17vh;
-        width: 90%;
+        height: 20vh;
+        width: 100%;
     }
 
     .div-botao {
@@ -316,6 +316,7 @@
         height: 10vh;
         width: 100%;
         overflow: hidden;
+        /* margin-bottom: 2vh; */
     }
 
 }
@@ -364,7 +365,7 @@
     /* ----------CONTAINER-PROJETOS----------- */
 
     .container-projetos {
-        height: 55vh;
+        height: auto;
         width: 30%;
     }
 
@@ -436,7 +437,7 @@
     /* ----------CONTAINER-PROJETOS----------- */
 
     .container-projetos {
-        height: 55vh;
+        height: auto;
         width: 30%;
     }
 
@@ -506,8 +507,8 @@
     /* ----------CONTAINER-PROJETOS----------- */
 
     .container-projetos {
-        height: 55vh;
-        width: 35%;
+        height: auto;
+        width: 45%;
     }
 
     .container-projetos p {
@@ -562,7 +563,7 @@
 
     .container-projetos {
         width: 45%;
-        height: 52vh;
+        height: auto;
         gap: 20px;
     }
 

@@ -258,7 +258,8 @@
 @media screen and (max-width: 1440px) and (min-width: 1201px) {
 
     .container-esquerda-experiencias {
-        height: 110vh;
+        height: auto;
+        margin-bottom: 5vh;
     }
 
     .linha-experiencias {
@@ -266,7 +267,8 @@
     }
 
     .container-direita-experiencias {
-        height: 110vh;
+        height: auto;
+        margin-bottom: 5vh;
     }
 
     /* ------------container-esquerda-1-------------- */
@@ -284,14 +286,14 @@
     /* --------container-esquerda-2-------------- */
 
     .container-esquerda-2 img {
-        height: 30vh;
+        height: auto;
         width: 35vw;
     }
 
     /* ------------container-direita-1-------------- */
 
     .container-direita-1 img {
-        height: 30vh;
+        height: auto;
         width: 35vw;
     }
 
@@ -379,13 +381,15 @@
     /* ------------container-direita-1-------------- */
 
     .container-direita-1 img {
-        height: 30vh;
+        height: auto;
+        width: 40vw;
     }
 
     /* -------------container-esquerda-2-------------- */
 
     .container-esquerda-2 img {
-        height: 30vh;
+        height: auto;
+        width: 40vw;
     }
 
     /* ------------container-direita-2--------------  */
@@ -401,20 +405,17 @@
 @media screen and (max-width: 768px) {
 
     .container-esquerda-experiencias {
-        height: 95vh;
+        height: auto;
     }
 
     .linha-experiencias {
-        height: 95vh;
+        height: 100vh;
     }
 
     .container-direita-experiencias {
-        height: 95vh;
+        height: auto;
     }
 
-    .linha-experiencias {
-        height: 0;
-    }
 
     /* ------------container-esquerda-1-------------- */
 
