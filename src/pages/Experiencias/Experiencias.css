@@ -208,16 +208,47 @@
 @media screen and (max-width: 1600px) and (min-width: 1441px) {
 
     .container-esquerda-experiencias {
-        height: 95vh;
+        height: 90vh;
     }
 
     .linha-experiencias {
-        height: 95vh;
+        height: 90vh;
     }
 
     .container-direita-experiencias {
-        height: 95vh;
-        background-color: red;
+        height: 90vh;
+    }
+
+    /* ------------container-esquerda-1-------------- */
+
+    .container-esquerda-1 h1 {
+        font-size: 34px;
+    }
+
+    .container-esquerda-1 p {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    /* --------container-esquerda-2-------------- */
+
+    .container-esquerda-2 img {
+        height: 30vh;
+        width: 35vw;
+    }
+
+    /* ------------container-direita-1-------------- */
+
+    .container-direita-1 img {
+        height: 30vh;
+        width: 35vw;
+    }
+
+    /* ------------container-direita-2-------------- */
+
+    .container-direita-2 p {
+        font-size: 18px;
+        width: 70%;
     }
 
 }
