@@ -36,7 +36,7 @@ function Experiencias() {
                 </div>
 
                 <div className='container-esquerda-2' data-aos="fade-up">
-                    <img src={pucrs} alt="" />
+                    <img src={campus} alt="" />
                 </div>
 
             </section>
@@ -48,7 +48,7 @@ function Experiencias() {
             <section className='container-direita-experiencias'>
 
                 <div className='container-direita-1' data-aos="fade-up">
-                    <img src={campus} alt="" />
+                    <img src={pucrs} alt="" />
                 </div>
 
                 <div className='container-direita-2' data-aos="fade-up">
