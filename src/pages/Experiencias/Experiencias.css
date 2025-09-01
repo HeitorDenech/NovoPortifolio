@@ -266,6 +266,7 @@
 
     .linha-experiencias {
         height: 110vh;
+        display: flex;
     }
 
     .container-direita-experiencias {
@@ -288,6 +289,7 @@
     /* --------container-esquerda-2-------------- */
 
     .container-esquerda-2 img {
+        margin-top: 0vh;
         height: auto;
         width: 35vw;
     }
@@ -302,6 +304,7 @@
     /* ------------container-direita-2-------------- */
 
     .container-direita-2 p {
+        margin-top: 2vh;
         font-size: 17px;
         width: 70%;
     }
