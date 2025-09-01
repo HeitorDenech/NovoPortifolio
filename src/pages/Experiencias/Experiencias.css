@@ -208,7 +208,8 @@
 @media screen and (max-width: 1600px) and (min-width: 1441px) {
 
     .container-esquerda-experiencias {
-        height: 90vh;
+        height: auto;
+        margin-bottom: 5vh;
     }
 
     .linha-experiencias {
@@ -216,7 +217,8 @@
     }
 
     .container-direita-experiencias {
-        height: 90vh;
+        height: auto;
+        margin-bottom: 5vh;
     }
 
     /* ------------container-esquerda-1-------------- */
