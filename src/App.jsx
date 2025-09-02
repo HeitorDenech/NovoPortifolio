@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home/Home';
 import Experiencias from './pages/Experiencias/Experiencias';
@@ -21,6 +21,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        {/* Redireciona a raiz "/" para "/início" */}
+        <Route path="/" element={<Navigate to="/início" />} />
         <Route path="/início" element={<Home />} />
         <Route path="/experiências" element={<Experiencias />} />
         <Route path="/contato" element={<Contato />} />

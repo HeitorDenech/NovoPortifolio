@@ -177,6 +177,7 @@
 @media screen and (max-width: 414px) {
     
     .contato-container{
+        margin-top: -3vh;
         border: 0px;
     }
 
@@ -185,6 +186,7 @@
     }
 
     .contato-container-botao button{
+        margin-top: -2vh;
         width: 30vw;
     }
 
