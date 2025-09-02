@@ -1,7 +1,8 @@
 // src/pages/Contato/Contato.jsx
 import React, { useState } from 'react';
-import './Contato.css';
 import Swal from 'sweetalert2';
+import emailjs from '@emailjs/browser';
+import './Contato.css';
 
 function Contato() {
     const [formData, setFormData] = useState({
@@ -10,7 +11,6 @@ function Contato() {
         mensagem: ''
     });
 
-    // Atualiza os valores do formulário
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -18,92 +18,105 @@ function Contato() {
         });
     };
 
-    // Envia os dados para o backend
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        try {
-            const response = await fetch('http://localhost:5000/contato', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData)
-            });
+        const serviceID = 'service_bolsonaro';
+        const templateID = 'template_6k9d0dn';
+        const publicKey = '6o-FARkmF2lQOhktn';
 
-            const data = await response.json();
+        const templateParams = {
+            name: formData.nome,
+            email: formData.email,
+            message: formData.mensagem,
+            title: 'Mensagem do Contato'
+        };
 
-            if (response.ok) {
-                Swal.fire({
-                    icon: 'success',
-                    title: 'Mensagem enviada!',
-                    text: data.message || 'Obrigado por entrar em contato.',
-                    confirmButtonColor: '#3085d6',
+        // Tempo aleatório entre 3 e 6 segundos
+        const delay = Math.floor(Math.random() * 3000) + 3000;
+
+        // Mostra o loading animado
+        Swal.fire({
+            title: 'Enviando sua mensagem...',
+            html: 'Aguarde alguns segundos...',
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading();
+            },
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+        });
+
+        setTimeout(() => {
+            emailjs.send(serviceID, templateID, templateParams, publicKey)
+                .then(() => {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Mensagem enviada!',
+                        text: 'Obrigado por entrar em contato.',
+                        confirmButtonColor: '#3085d6',
+                    });
+                    setFormData({ nome: '', email: '', mensagem: '' });
+                })
+                .catch((error) => {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Erro ao enviar!',
+                        text: 'Tente novamente mais tarde.',
+                        confirmButtonColor: '#d33',
+                    });
+                    console.error('Erro no envio:', error);
                 });
-
-                // Limpa o formulário
-                setFormData({ nome: '', email: '', mensagem: '' });
-            } else {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Erro ao enviar!',
-                    text: data.message || 'Tente novamente mais tarde.',
-                    confirmButtonColor: '#d33',
-                });
-            }
-        } catch (error) {
-            Swal.fire({
-                icon: 'error',
-                title: 'Erro ao enviar mensagem!',
-                text: 'Não foi possível conectar ao servidor.',
-                confirmButtonColor: '#d33',
-            });
-            console.error('Erro no envio:', error);
-        }
+        }, delay);
     };
 
     return (
         <section className='contato'>
-            <h1>Contato</h1>
+            <h1 data-aos="fade-right">Contato</h1>
 
-            <section className='contato-container'>
+            <form onSubmit={handleSubmit} className='contato-container' data-aos="fade-right">
                 <div className='contato-container-nome'>
-                    <p>nome * <i className="bi bi-person-fill"></i></p>
+                    <p>Nome * <i className="bi bi-person-fill"></i></p>
                     <input
                         type="text"
                         name="nome"
                         placeholder='Seu Nome'
                         value={formData.nome}
                         onChange={handleChange}
+                        required
                     />
                 </div>
 
                 <div className='contato-container-email'>
-                    <p>endereço de e-mail * <i className="bi bi-envelope-fill"></i></p>
+                    <p>E-mail * <i className="bi bi-envelope-fill"></i></p>
                     <input
                         type="email"
                         name="email"
                         placeholder='Seu endereço de E-mail'
                         value={formData.email}
                         onChange={handleChange}
+                        required
                     />
                 </div>
 
                 <div className='contato-container-mensagem'>
-                    <p>mensagem * <i className="bi bi-pencil-fill"></i></p>
+                    <p>Mensagem * <i className="bi bi-pencil-fill"></i></p>
                     <textarea
                         name="mensagem"
                         placeholder="Escreva sua mensagem aqui"
                         rows="5"
                         value={formData.mensagem}
                         onChange={handleChange}
+                        required
                     ></textarea>
                 </div>
 
                 <div className='contato-container-botao'>
-                    <button onClick={handleSubmit}>
+                    <button type="submit">
                         Enviar <i className="bi bi-send-fill"></i>
                     </button>
                 </div>
-            </section>
+            </form>
         </section>
     );
 }

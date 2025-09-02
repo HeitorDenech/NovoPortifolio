@@ -21,7 +21,7 @@ function Experiencias() {
 
             <section className='container-esquerda-experiencias'>
 
-                <div className='container-esquerda-1' data-aos="fade-up">
+                <div className='container-esquerda-1' data-aos="fade-right">
 
                     <h1>Senac-rs</h1>
 
@@ -35,7 +35,7 @@ function Experiencias() {
 
                 </div>
 
-                <div className='container-esquerda-2' data-aos="fade-up">
+                <div className='container-esquerda-2' data-aos="fade-right">
                     <img src={campus} alt="" />
                 </div>
 
@@ -47,11 +47,11 @@ function Experiencias() {
 
             <section className='container-direita-experiencias'>
 
-                <div className='container-direita-1' data-aos="fade-up">
+                <div className='container-direita-1' data-aos="fade-left">
                     <img src={pucrs} alt="" />
                 </div>
 
-                <div className='container-direita-2' data-aos="fade-up">
+                <div className='container-direita-2' data-aos="fade-left">
                     <h1>PUC-RS</h1>
 
                     <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na
