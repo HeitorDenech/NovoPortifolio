@@ -35,16 +35,28 @@ function Contato() {
         // Tempo aleatório entre 3 e 6 segundos
         const delay = Math.floor(Math.random() * 3000) + 3000;
 
+        // Adiciona CSS para remover scroll enquanto o modal estiver aberto
+        const style = document.createElement('style');
+        style.innerHTML = `
+          body.swal2-shown {
+            overflow: hidden !important;
+            padding-right: 0 !important;
+          }
+          .swal2-container {
+            overflow: hidden !important;
+          }
+        `;
+        document.head.appendChild(style);
+
         // Mostra o loading animado
         Swal.fire({
             title: 'Enviando sua mensagem...',
             html: 'Aguarde alguns segundos...',
             timerProgressBar: true,
-            didOpen: () => {
-                Swal.showLoading();
-            },
+            didOpen: () => Swal.showLoading(),
             allowOutsideClick: false,
             allowEscapeKey: false,
+            showConfirmButton: false
         });
 
         setTimeout(() => {
@@ -66,6 +78,12 @@ function Contato() {
                         confirmButtonColor: '#d33',
                     });
                     console.error('Erro no envio:', error);
+                })
+                .finally(() => {
+                    // Remove o estilo do scroll após o modal fechar
+                    if (document.head.contains(style)) {
+                        document.head.removeChild(style);
+                    }
                 });
         }, delay);
     };
