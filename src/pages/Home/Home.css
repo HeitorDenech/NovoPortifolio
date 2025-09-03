@@ -41,6 +41,7 @@
     font-size: 20px;
     width: auto;
     text-align: start;
+    width: 100%;
 }
 
 .container-interno-introducao a {
@@ -138,11 +139,12 @@
 
     /* -------------CONTAINER-INTERNO-INTRODUCAO--------- */
 
-    .container-interno-introducao {
-        width: 90%;
+    .container-introducao {
+        width: 100vw;
     }
 
     .container-interno-introducao p {
+        width: 80%;
         font-size: 14px;
     }
 
@@ -153,10 +155,28 @@
 
     /* ------------CONTAINER-IMG--------------- */
 
+    .container-img{
+        display: none;
+    }
+
     .container-img img {
         height: 50%;
         width: auto;
     }
+}
+
+/* ---------431PX-767PX--------------- */
+
+@media screen and (min-width:431px) and (max-width:767px){
+    
+    .container-introducao{
+        width: 100vw;
+    }
+
+    .container-introducao p{
+        min-width: 70%;
+    }
+    
 }
 
 /* ----------CELULARES-430PX---------- */

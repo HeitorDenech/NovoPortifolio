@@ -590,6 +590,82 @@
 
 }
 
+/* --------------769PX-1023PX------------- */
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+ 
+        /* ---------CONTAINER-PROJETOS-TEXTO---------- */
+
+    .container-introducao-projetos-text h1 {
+        margin-left: 10%;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    .container-introducao-projetos-text p {
+        font-size: 15px;
+    }
+
+    /* ---------CONTAINER-PROJETOS-IMG--------- */
+
+    .container-introducao-projetos-img img {
+        height: 70%;
+        width: auto;
+    }
+
+    /* ---------CONTAINER-PROJETOS-PRINCIPAL----------- */
+
+    .container-projetos-principal {
+        gap: 20px;
+    }
+
+    /* ----------CONTAINER-PROJETOS----------- */
+
+    .container-projetos {
+        height: auto;
+        width: 45%;
+    }
+
+    .container-projetos p {
+        text-align: start;
+    }
+
+    .container-projetos button {
+        height: 5vh;
+        width: 15vw;
+    }
+
+    .div-botao button {
+        background-color: black;
+    }
+
+    .title-projeto {
+        background-color: transparent;
+        height: 8h;
+        overflow: hidden;
+    }
+
+    .descricao-projeto {
+        background-color: transparent;
+        overflow: hidden;
+        height: 18vh;
+        width: 90%;
+    }
+
+    .div-botao {
+        background-color: transparent;
+        height: 8vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .div-botao button {
+        height: 4vh;
+        width: 15vw;
+    } 
+
+}
+
 /* --------TABLETS-768PX--------- */
 
 @media screen and (max-width: 768px) {
