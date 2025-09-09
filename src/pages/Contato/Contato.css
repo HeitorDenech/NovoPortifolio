@@ -17,6 +17,20 @@
     letter-spacing: 1px;
 }
 
+.swal2-popup {
+    overflow: hidden !important;
+    /* evita barra de rolagem dentro do alerta */
+}
+
+.swal2-icon {
+    overflow: hidden !important;
+    /* evita scroll dentro do ícone */
+}
+
+.swal-no-scroll {
+  overflow: hidden !important;
+}
+
 /* -----------contato-container------------ */
 
 .contato-container {
@@ -33,22 +47,22 @@
     margin-top: 5vh
 }
 
-.contato-container i{
+.contato-container i {
     margin-left: 0.5vh;
     font-size: 16px;
 }
 
-.contato-container-nome{
+.contato-container-nome {
     width: 100%;
     margin-top: 2vh;
 }
 
-.contato-container-email{
+.contato-container-email {
     width: 100%;
     margin-top: 3vh;
 }
 
-.contato-container-mensagem{
+.contato-container-mensagem {
     width: 100%;
     margin-top: 3vh;
 }
@@ -71,11 +85,11 @@
     transition: all .45s ease-in-out;
 }
 
-.contato-container input:hover{
+.contato-container input:hover {
     background-color: transparent;
 }
 
-.contato-container textarea{
+.contato-container textarea {
     margin-top: 1vh;
     height: 20vh;
     width: 100%;
@@ -88,13 +102,13 @@
 
 }
 
-.contato-container textarea:hover{
+.contato-container textarea:hover {
     background-color: transparent;
 }
 
 /* -------------CONTATO-CONTAINER-BOTAO------------ */
 
-.contato-container-botao{
+.contato-container-botao {
     margin-top: -1vh;
     display: flex;
     align-items: start;
@@ -102,7 +116,7 @@
     width: 100%;
 }
 
-.contato-container-botao button{
+.contato-container-botao button {
     width: 40%;
     height: 6vh;
     font-size: 14px;
@@ -114,7 +128,7 @@
     transition: all .45s ease-in-out;
 }
 
-.contato-container-botao button:hover{
+.contato-container-botao button:hover {
     background-color: rgb(223, 223, 223);
     cursor: pointer;
 }
@@ -122,20 +136,20 @@
 /* ----------1441px-1600px------------- */
 
 @media screen and (max-width:1600px) and (min-width:1441px) {
-    
-    .contato-container{
+
+    .contato-container {
         min-width: 45vw;
     }
 
-    .contato-container p{
+    .contato-container p {
         font-size: 18px;
     }
 
-    .contato-container button{
+    .contato-container button {
         font-size: 18px;
     }
 
-    .contato-container i{
+    .contato-container i {
         font-size: 16px;
     }
 
@@ -143,9 +157,9 @@
 
 /* -----------1025px-1271px-------------------- */
 
-@media screen and (max-width:1271px) and (min-width:1025px){
-    
-    .contato-container{
+@media screen and (max-width:1271px) and (min-width:1025px) {
+
+    .contato-container {
         min-width: 50vw;
     }
 
@@ -154,8 +168,8 @@
 /* ------------LAPTOP-1024PX-------------- */
 
 @media screen and (max-width:1024px) {
-    
-    .contato-container{
+
+    .contato-container {
         min-width: 50vw;
     }
 
@@ -164,8 +178,8 @@
 /* --------------TABLETS-768PX--------------- */
 
 @media screen and (max-width:768px) {
-    
-    .contato-container{
+
+    .contato-container {
         min-width: 60vw;
         border: none;
     }
@@ -175,17 +189,17 @@
 /* ------------IPHONE-414PX----------- */
 
 @media screen and (max-width: 414px) {
-    
-    .contato-container{
+
+    .contato-container {
         margin-top: -3vh;
         border: 0px;
     }
 
-    .contato-container input{
+    .contato-container input {
         width: 70vw;
     }
 
-    .contato-container-botao button{
+    .contato-container-botao button {
         margin-top: -2vh;
         width: 30vw;
     }
