@@ -50,7 +50,7 @@
 .container-introducao-projetos-img {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     height: 100%;
     width: 50%;
 }
@@ -328,7 +328,8 @@
     /* -------------CONTAINER-PROJETOS---------- */
 
     .container-introducao-projetos {
-        width: 80vw;
+        width: 70vw;
+        /* background-color: red; */
     }
 
     /* ---------CONTAINER-PROJETOS-TEXTO---------- */
@@ -350,6 +351,12 @@
 
 
     /* ---------CONTAINER-PROJETOS-IMG--------- */
+
+    .container-introducao-projetos-img{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
 
     .container-introducao-projetos-img img {
         height: 90%;

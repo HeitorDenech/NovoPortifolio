@@ -2,7 +2,7 @@
     width: 100vw;
     overflow-x: hidden;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     align-items: start;
     justify-content: start;
-    flex-direction: column;
+    flex-direction: column; 
     width: 50%;
     height: 120vh;
 }
@@ -290,14 +290,14 @@
 
     .container-esquerda-2 img {
         margin-top: 0vh;
-        height: auto;
+        height: 40vh;
         width: 35vw;
     }
 
     /* ------------container-direita-1-------------- */
 
     .container-direita-1 img {
-        height: auto;
+        height: 40vh;
         width: 35vw;
     }
 

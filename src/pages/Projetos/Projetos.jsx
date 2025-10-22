@@ -78,15 +78,15 @@ function Projetos() {
                     </div>
 
                     <div className='title-projeto'>
-                        <h1>Em desenvolvimento</h1>
+                        <h1>Cine10</h1>
                     </div>
 
                     <div className='descricao-projeto'>
-                        <p>Projeto em desenvolvimento.</p>
+                        <p>Cine10 é um site informativo de cinema, onde possui as melhores indicações de filmes, série, etc.</p>
                     </div>
 
                     <div className='div-botao'>
-                        <a href='' target='_blank'>
+                        <a href='https://cine10.vercel.app/' target='_blank'>
                             <button>
                                 ver projeto
                             </button>
