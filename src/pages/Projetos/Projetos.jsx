@@ -27,6 +27,28 @@ function Projetos() {
 
             <section className='container-projetos-principal' data-aos="fade-up">
 
+                <div className='container-projetos'>
+                    <div className='container-projetos-img'>
+                        <img src={portifolio} alt="" />
+                    </div>
+
+                    <div className='title-projeto'>
+                        <h1>Cine10</h1>
+                    </div>
+
+                    <div className='descricao-projeto'>
+                        <p>Cine10 é um site informativo de cinema, onde possui as melhores indicações de filmes, série, etc.</p>
+                    </div>
+
+                    <div className='div-botao'>
+                        <a href='https://cine10.vercel.app/' target='_blank'>
+                            <button>
+                                ver projeto
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
 
                 <div className='container-projetos'>
                     <div className='container-projetos-img'>
@@ -72,27 +94,7 @@ function Projetos() {
                     </div>
                 </div>
 
-                <div className='container-projetos'>
-                    <div className='container-projetos-img'>
-                        <img src={portifolio} alt="" />
-                    </div>
 
-                    <div className='title-projeto'>
-                        <h1>Cine10</h1>
-                    </div>
-
-                    <div className='descricao-projeto'>
-                        <p>Cine10 é um site informativo de cinema, onde possui as melhores indicações de filmes, série, etc.</p>
-                    </div>
-
-                    <div className='div-botao'>
-                        <a href='https://cine10.vercel.app/' target='_blank'>
-                            <button>
-                                ver projeto
-                            </button>
-                        </a>
-                    </div>
-                </div>
 
 
             </section>
