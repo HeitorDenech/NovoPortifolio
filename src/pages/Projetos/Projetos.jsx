@@ -1,8 +1,9 @@
 import './Projetos.css'
 import apresentacao from "../../assets/apresentacao.avif"
-import portifolio from "../../assets/portifoliowallpaper.avif"
+import cinemawallpaper from "../../assets/cinemawallpaper.png"
 import portifolio2 from "../../assets/portifoliowallpaper2.jpg"
 import calculadoraimg from "../../assets/calculadoraimg.jpg"
+import trufasdebrigadeiro from "../../assets/trufas-de-brigadeiro.webp"
 
 function Projetos() {
     return (
@@ -29,7 +30,7 @@ function Projetos() {
 
                 <div className='container-projetos'>
                     <div className='container-projetos-img'>
-                        <img src={portifolio} alt="" />
+                        <img src={cinemawallpaper} alt="" />
                     </div>
 
                     <div className='title-projeto'>
@@ -52,19 +53,19 @@ function Projetos() {
 
                 <div className='container-projetos'>
                     <div className='container-projetos-img'>
-                        <img src={portifolio2} alt="" />
+                        <img src={trufasdebrigadeiro} alt="" />
                     </div>
 
                     <div className='title-projeto'>
-                        <h1>Primeiro portifólio</h1>
+                        <h1>Trufas Artesanais</h1>
                     </div>
 
                     <div className='descricao-projeto'>
-                        <p>Meu primeiro portifólio, e primeiro projeto em react.</p>
+                        <p>Fiz uma simples landing page de trufas para um amigo meu.</p>
                     </div>
 
                     <div className='div-botao'>
-                        <a href="https://heitor-portifolio.vercel.app/" target='_blank'>
+                        <a href="https://landing-page-trufa.vercel.app/" target='_blank'>
                             <button>
                                 ver projeto
                             </button>
